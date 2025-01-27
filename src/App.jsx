@@ -1,4 +1,5 @@
 import WeatherForecast from "./components/WeatherForecast/WeatherForecast.jsx";
+import WeatherIcon from "./components/WeatherIcon/WeatherIcon.jsx";
 
 const weatherForecasts = [
     {
