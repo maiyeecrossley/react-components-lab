@@ -5,12 +5,13 @@ import WeatherData from "../WeatherData/WeatherData";
 const WeatherForecast = (props) => {
   const { day, img, imgAlt, conditions, time } = props
   return (
-    <>
-    <WeatherData
-    day={day} conditions={conditions} time={time}/>
-    <WeatherIcon 
-    img={img} imgAlt={imgAlt}/>
-  </>
+    <section className="weather">
+      <WeatherData
+        day={day} conditions={conditions} time={time} />
+      <WeatherIcon
+        img={img} imgAlt={imgAlt} />
+    </section>
+
   )
 }
 
